@@ -1,69 +1,86 @@
-html, body {
-    width: 800px;
-    margin: auto;
+body {
+   font-family: calibri; 
+   width: 800px;
+   background: url(http://brucebauer.info/img/IFSC4396/webpage-background.jpg) repeat-x center fixed;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 45px;
+   border: 1px solid white;
+   background-size: contain;
 }
 
-body{
-    background-image: url(http://brucebauer.info/img/IFSC4396/webpage-background.jpg);
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-    border: 1px solid white;
+
+#header {
+   position: fixed;
 }
 
-header{
-    height: 150px;
+#header-image {
+   width: 100%;
+   height: 185px;
+   background-image: url('images/webpage-header.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
-nav{
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #111111;
 }
 
-.nav-link{
-    padding: 8px 12px;
-    text-decoration: none;
-    color: white;
+li {
+   float: left;
 }
 
-.nav-link:hover{
-    background-color: lightgray;
-    color: black;
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
 }
 
-.main{
-    padding: 15px;
-    background-color: white;
+
+li a:hover {
+   background-color: rgb(41, 41, 41);
 }
 
-.float-image{
-    float: right;
-    border: 2px solid black;
-    margin: 6px;
+
+#p1 {
+   float:left;
 }
 
-.alert {
-    color: grey;
+img {
+   width: 160px;
+   float: right;
+   border: black solid 1px;
+   margin: 14px;
+   margin-top: 6px;
 }
 
-h2, h3, h4{
-    color: blue;
-    padding: 0px;
-    margin: 0px;
+p.alert {
+   color: gray;
 }
 
-h3{
-    text-decoration:underline;
+footer {  
+   vertical-align: middle;
+   color: white;
+   background-color: black;
+   padding-left: 14px;
+   padding-top: 14px;
+   height: 35px;
 }
 
-h4{
-    font-style: italic;
+#content {
+   background-color: white;
+   padding: 25px;
+   padding-top: 5px;
+   background-size: cover;
 }
 
-footer{
-    font-size: small;
-    padding: 6px 25px;
-    color: white;
-    background-color: black;
+.def {
+   padding-left: 25px;
 }
